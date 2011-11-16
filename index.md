@@ -1,6 +1,4 @@
 ---
-layout: default
-title: Lol
+layout: home
+title: Home
 ---
-# It's like this&hellip;
-&hellip; that and this and a &mdash;
