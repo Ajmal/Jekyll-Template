@@ -4,7 +4,7 @@
 http_path = "/"
 css_dir = "css"
 sass_dir = "scss"
-images_dir = "img"
+images_dir = "images"
 javascripts_dir = "js"
 
 # You can select your preferred output style here (can be overridden via the command line):
@@ -13,8 +13,8 @@ javascripts_dir = "js"
 # To enable relative paths to assets via compass helper functions. Uncomment:
 # relative_assets = true
 
+output_style = :compressed
 line_comments = false
-
 
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:
