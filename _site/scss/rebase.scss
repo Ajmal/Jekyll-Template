@@ -105,23 +105,37 @@ ins { text-decoration:none; }
 cite,em,i { font-style:italic; }
 big { font-size:131.25%; }
 hr { background-color:#e9e9e9; border:0; height:1px; margin-bottom:20px; }
-strong { font-weight:bold }
-em { font-style:italic }
-.upcase { text-transform: uppercase; }
-.italic { font-style: italic; }
-.hide {display:none;}
+strong { font-weight:bold; }
+em { font-style:italic; }
+.upcase { text-transform:uppercase; }
+.italic { font-style:italic; }
+.hide { display:none; }
 abbr[title], dfn[title] {
     border-bottom: 1px dotted #000000;
     cursor: help;
+}
+small { font-size: 11px; }
+.dblock { display: block; }
+
+.word_wrap {
+	white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+.break_word {
+    word-wrap: break-word;
 }
 
 /*---------------------------------------------------------------------------*/
 /*	~float
 -----------------------------------------------------------------------------*/
-.fleft{float: left;}
-.fright{float: right;}
-.aleft{text-align: center;}
-.aright{text-align: right;}
+.fleft { float:left; }
+.fright { float:right; }
+.aleft { text-align:left; }
+.aright { text-align:right; }
+.acenter { text-align:center; }
 
 /*---------------------------------------------------------------------------*/
 /*	~form
@@ -188,16 +202,21 @@ ul.listing li { list-style-type:disc; }
 /*---------------------------------------------------------------------------*/
 /*	~margin bottom
 -----------------------------------------------------------------------------*/
-.push_5 { margin-bottom:5px; }
-.push_10 { margin-bottom:10px; }
-.push_15 { margin-bottom:15px; }
-.push_20 { margin-bottom:20px; }
-.push_25 { margin-bottom:25px; }
-.push_30 { margin-bottom:30px; }
-.push_35 { margin-bottom:35px; }
-.push_40 { margin-bottom:40px; }
-.push_45 { margin-bottom:45px; }
-.push_50 { margin-bottom:50px; }
+.push_5{margin-bottom:5px;}
+.push_10{margin-bottom:10px;}
+.push_15{margin-bottom:15px;}
+.push_20{margin-bottom:20px;}
+.push_25{margin-bottom:25px;}
+.push_30{margin-bottom:30px;}
+.push_35{margin-bottom:35px;}
+.push_40{margin-bottom:40px;}
+.push_45{margin-bottom:45px;}
+.push_50{margin-bottom:50px;}
+.push_60{margin-bottom:60px;}
+.push_70{margin-bottom:70px;}
+.push_80{margin-bottom:80px;}
+.push_90{margin-bottom:90px;}
+.push_100{margin-bottom:100px;}
 
 .btn {
 	display: inline-block;

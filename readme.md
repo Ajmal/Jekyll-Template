@@ -5,8 +5,8 @@ This is a blank jekyll framework created for rapid html conversion.
 credit: mojombo and Eric D. Field
 
 ##config.rb for css
-output_style = :compressed
-line_comments = false
+1. output_style = :compressed
+2. line_comments = false
 
 ##How to use
 1. cd dir
